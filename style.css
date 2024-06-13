@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-color: lightskyblue;
+}
+.main-container {
+  width: 280px;
+  height: 530px;
+  background-color: rgb(250, 250, 245);
+  justify-content: center;
+  margin: 0px auto;
+  /* display: flex; */
+  margin-top: 12px;
+  border-radius: 12px;
+  box-shadow: inset 0px 0px 80px 0px rgb(210, 224, 147);
+}
+.container-1 {
+  background-color: rgb(219, 228, 225);
+  /* border: 2px solid red; */
+  width: 260px;
+  height: 45px;
+  border-radius: 12px;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 50px 160px 40px;
+
+  /* box-shadow: rgb(244, 244, 25) 0 0 0 20px; */
+}
+
+.john-1 {
+  border-radius: 40px;
+  width: 32px;
+  height: 32px;
+}
+.container-guide {
+  padding-top: 12px;
+}
+.dp-john {
+  padding-left: 5px;
+  padding-top: 5px;
+}
+.head-1 {
+  padding-top: 5px;
+  /* padding-left: 5px; */
+}
+.head-name {
+  font-size: 12px;
+}
+.head-description {
+  font-size: 10px;
+}
+.search-icon {
+  width: 23px;
+  height: 23px;
+}
+.search-bar {
+  padding-top: 5px;
+  padding-left: 5px;
+}
+/* SECOND_CONTAINER */
+.container-2 {
+  background-color: rgb(219, 228, 225);
+  /* border: 2px solid red; */
+  width: 260px;
+  height: 180px;
+  border-radius: 12px;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 40px 160px 36px;
+}
+.container-3 {
+  background-color: rgb(219, 228, 225);
+  /* border: 2px solid red; */
+  width: 260px;
+  height: 135px;
+  border-radius: 12px;
+  margin: 0px auto;
+  /* padding-left: 8px; */
+  /* display: grid;
+  grid-template-columns: 40px 160px 36px; */
+}
+.dropdown-1 {
+  width: 28px;
+  height: 28px;
+  padding-right: 5px;
+  /* padding-left: 5px; */
+}
+.working-1 {
+  display: flex;
+  gap: 170px;
+  padding-left: 8px;
+  font-size: 12px;
+}
+.work-1 {
+  padding-left: 3px;
+  padding-top: 5px;
+  font-size: 12px;
+  color: rgb(168, 159, 159);
+}
+.work-2 {
+  font-size: 12px;
+  padding-top: 8px;
+  padding-left: 3px;
+}
+.sec-3 {
+  display: grid;
+  grid-template-columns: 40px 160px 36px;
+  padding-top: 6px;
+}
+.container-4 {
+  background-color: rgb(219, 228, 225);
+  width: 260px;
+  height: 50px;
+  margin: 0px auto;
+  border-radius: 12px;
+}
+.guide-2,
+.guide-3,
+.guide-4 {
+  padding-top: 25px;
+}
+.dropup-1 {
+  width: 28px;
+  height: 28px;
+  /* padding-top: 2px; */
+  padding-right: -2px;
+  padding-top: 2px;
+}
+.icon-1 {
+  padding-left: 8px;
+  padding-top: 5px;
+}
+.sun-1 {
+  width: 20px;
+  height: 20px;
+}
+.task-1 {
+  width: 18px;
+  height: 18px;
+  fill: red;
+}
+.task-2 {
+  width: 18px;
+  height: 18px;
+  fill: rgba(203, 105, 203, 0.653);
+}
+.task-3 {
+  width: 18px;
+  height: 18px;
+  fill: rgb(11, 190, 133);
+}
+.head-top {
+  font-size: 12px;
+  padding-top: 5px;
+}
+.head-2 {
+  padding-left: 5px;
+}
+.numbering-1 {
+  font-size: 9px;
+  padding-top: 5px;
+  color: grey;
+  padding-left: 19px;
+}
